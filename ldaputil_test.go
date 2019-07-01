@@ -16,7 +16,7 @@ func TestIsAccountControlDisabled(t *testing.T) {
 }
 
 func TestParseUserDomain(t *testing.T) {
-	u := "VDIMDCI\\zaldy.baguinons"
+	u := "VDIMDCI\\zaldy.baguinon"
 
 	hasdomain, domain, user := ParseUserDomain(&u)
 	fmt.Print(hasdomain, domain, user)
